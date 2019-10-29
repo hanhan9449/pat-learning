@@ -1,2 +1,2 @@
 # git_learning
-这个仓库用来学习git是如何使用的，用pat的乙级代码
+关于一些pat题的解法
