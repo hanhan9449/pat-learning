@@ -10,7 +10,7 @@ int main() {
   Location[1] = 0; //筛除部分
   int p, q, end;
   end = sqrt((double)N) + 1;
-  for (p = 2; p != end; ++p) {
+  for (p = 2; p != end; ++p) { // 开始筛选
     if (Location[p]) {
       for (q = p; p * q <= N; ++q) {
         for (int k = p * q; k <= N; k *= p)
